@@ -10,7 +10,7 @@ body {
 }
 
 body {
-    background-color: #94d0d4;
+    background-color:rgb(227, 206, 216);
     position: relative;
 }
 
@@ -22,9 +22,9 @@ body {
     margin-left: auto;
     margin-right:auto;
     margin-top:  150px;
-    background-color: #eee;
+    background-color:rgba(171, 197, 226, 0.97);
     letter-spacing: 1px;
-    color: #042531; 
+    color: rgb(82, 94, 131); 
     border-radius:10px;                                    /*圓角*/
      transition-duration:0.5s;
       overflow:hidden;
@@ -39,12 +39,13 @@ body {
 .namecard h2{
     font-size: 28px;
     letter-spacing: 8px;
+    color: #555bc0;
 }
 
 .namecard h2 span{
     padding:  10px;
     font-size:16px;
-    color: #999;
+    color: #555bc0;
     letter-spacing:5px;
 
 }
@@ -52,12 +53,13 @@ body {
 .namecard h5{
 font-size:20px;
 letter-spacing: 4px;
+color:rgb(82, 94, 131) 
 }
 
 .namespace p{
     font-size: 15px;
     font-weight: 300;
-    color: #666666;
+    color: rgb(133, 75, 182);
     line-height: 22px;
 }
 
@@ -107,8 +109,8 @@ img{
 .namecard:hover{
     transform: translateY(0px) translateX(-40px);
     box-shadow: 10px 10px 30px rgba(50, 50, 50, 0.3);
-    background-color: #fff;
-    color:#222222;
+    background-color: rgba(171, 226, 204, 0.97)     ;
+    color:rgb(82, 94, 131);
 }
 
 .namecard:hover .circle1{
